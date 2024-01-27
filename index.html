@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+  <body>
+    <!-- nav start  -->
+    <div class="nav">
+      <nav class="navBar">
+        <div class="logo">
+          <img
+            class="cap"
+            src="https://s3-alpha-sig.figma.com/img/bc54/7f13/d28a4b243089059a8c6dc2d17da91bef?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=NBqa6jVQ9yKMJb8kcDTWKFm~t0ZSlUAq2s4qSu5OMJ30IPNc2hc6mvmVLzUA1ydpUUablwuvgBj~d3pcUK7vJCZimqSlslxD5WPMj1qkMBxeqPu86dLF9dulBL2fv9Znl8Wm-tNSILsQDpTBlsBwvj2Q2ze-ZuOktnC-hWLgE4Ok4VyWGYTF6AQYM7xIRwdNqSyydVh5ZFJ0ZjTplR~BY32K5-0kSz74S1NX5Tq2PI18t1I9GW0PwD8Hksongg9OEXxa1i3S0y0h8SoYsJd018zoNrSHnHnfsuKg27LaLcVJz3xbo2aQBgFF92FhH9awBnF~hm7BD4ZiWCpD-zGl5Q__"
+            alt=""
+          />
+          <img src="./QuizGrad.png" alt="logo" />
+        </div>
+        <div class="nav-container">
+          <div class="nav--container">
+            <div class="navcontent">
+              <a href="#howitWorks" class="how">How it Works?</a>
+              <a href="Features">Features</a>
+              <a href="#aboutUs">About Us</a>
+            </div>
+            <div class="button">
+              <a href="#login" class="button-login" id="btn">Login</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <hr / class="nav-hr">
+    <!-- nav end  -->
+    <!-- left container start  -->
+    <div class="first-container">
+      <div class="first-content">
+        <div class="left-container">
+          <div class="left-para">
+            <div class="para-text">
+              <p>Learn new concepts for each question</p>
+            </div>
+            <div class="sub-text">We help you prepare for exams and quizes</div>
+            <div class="start-quiz-button">
+              <a href="#start" class="start-solving">Start Solving</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- svg  -->
+      <div class="svg-1">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="194"
+          height="71"
+          viewBox="0 0 194 71"
+          fill="none"
+        >
+          <path
+            d="M189.797 160.699C189.797 160.699 196.525 131.895 185.296 121.14C174.361 110.665 146.685 117.587 146.685 117.587C146.685 117.587 109.292 128.511 90.0703 117.587C57.2547 98.9376 109.431 50.0098 85.2142 21.0579C58.2455 -11.1846 -21.3819 6.13443 -21.3819 6.13443"
+            stroke="url(#paint0_linear_102_1140)"
+            stroke-width="2.90285"
+          />
+          <defs>
+            <linearGradient
+              id="paint0_linear_102_1140"
+              x1="-22.0617"
+              y1="8.96209"
+              x2="207.263"
+              y2="189.519"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stop-color="#FFDD72" />
+              <stop offset="1" stop-color="#FCC822" />
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+
+      <!-- left container end  -->
+      <!-- right container start  -->
+      <div class="right-container">
+        <div class="right-content">
+          <img src="./Screenshot 2024-01-27 161303.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- right container end -->
+
+    <!-- Choose your favorite topic pop up start  -->
+    <div class="quiz-container">
+      <div class="quiz-content">
+        <span class="material-symbols-outline cross-icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="18"
+            height="19"
+            viewBox="0 0 18 19"
+            fill="none"
+          >
+            <path
+              d="M11.14 9.69289L17.3751 3.47142C17.6481 3.19834 17.8015 2.82796 17.8015 2.44176C17.8015 2.05556 17.6481 1.68518 17.3751 1.4121C17.102 1.13901 16.7317 0.985596 16.3455 0.985596C15.9594 0.985596 15.5891 1.13901 15.316 1.4121L9.09544 7.64807L2.87485 1.4121C2.6018 1.13901 2.23147 0.985596 1.84533 0.985596C1.45919 0.985596 1.08886 1.13901 0.815816 1.4121C0.542771 1.68518 0.389376 2.05556 0.389376 2.44176C0.389376 2.82796 0.542771 3.19834 0.815816 3.47142L7.05091 9.69289L0.815816 15.9144C0.679908 16.0492 0.572035 16.2096 0.498419 16.3863C0.424803 16.563 0.386902 16.7526 0.386902 16.944C0.386902 17.1355 0.424803 17.325 0.498419 17.5018C0.572035 17.6785 0.679908 17.8389 0.815816 17.9737C0.950614 18.1096 1.11099 18.2175 1.28769 18.2911C1.46439 18.3648 1.65391 18.4027 1.84533 18.4027C2.03675 18.4027 2.22628 18.3648 2.40298 18.2911C2.57967 18.2175 2.74005 18.1096 2.87485 17.9737L9.09544 11.7377L15.316 17.9737C15.4508 18.1096 15.6112 18.2175 15.7879 18.2911C15.9646 18.3648 16.1541 18.4027 16.3455 18.4027C16.537 18.4027 16.7265 18.3648 16.9032 18.2911C17.0799 18.2175 17.2403 18.1096 17.3751 17.9737C17.511 17.8389 17.6188 17.6785 17.6925 17.5018C17.7661 17.325 17.804 17.1355 17.804 16.944C17.804 16.7526 17.7661 16.563 17.6925 16.3863C17.6188 16.2096 17.511 16.0492 17.3751 15.9144L11.14 9.69289Z"
+              fill="#D1D1D1"
+            />
+          </svg>
+        </span>
+        <div class="upper-heading">
+          <div class="main-para">Choose your favorite topic</div>
+          <div class="sub-para">Select more than 5 topics to start quiz</div>
+        </div>
+        <div class="quiz-topic">
+          <table>
+            <tbody>
+              <tr>
+                <td><a href="#TagBadge">TagBadge</a></td>
+                <td class="yellow-color">
+                  <a href="#TagBadge">TagBadge </a
+                  ><span class="material-symbol close">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="13"
+                      height="12"
+                      viewBox="0 0 13 12"
+                      fill="none"
+                    >
+                      <path
+                        d="M2.48492 11.2786L6.4718 7.29174L10.4587 11.2786L11.8006 9.93673L7.81368 5.94985L11.8006 1.96298L10.4587 0.621094L6.4718 4.60797L2.48492 0.621094L1.14304 1.96298L5.12991 5.94985L1.14304 9.93673L2.48492 11.2786Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </span>
+                </td>
+                <td class="yellow-color">
+                  <a href="#TagBadge">TagBadge </a
+                  ><span class="material-symbol">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="13"
+                      height="12"
+                      viewBox="0 0 13 12"
+                      fill="none"
+                    >
+                      <path
+                        d="M2.48492 11.2786L6.4718 7.29174L10.4587 11.2786L11.8006 9.93673L7.81368 5.94985L11.8006 1.96298L10.4587 0.621094L6.4718 4.60797L2.48492 0.621094L1.14304 1.96298L5.12991 5.94985L1.14304 9.93673L2.48492 11.2786Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </span>
+                </td>
+                <td><a href="#TagBadge">TagBadge</a></td>
+                <td><a href="#TagBadge">TagBadge</a></td>
+              </tr>
+              <tr>
+                <td><a href="#TagBadge">TagBadge</a></td>
+                <td><a href="#TagBadge">TagBadge</a></td>
+                <td><a href="#TagBadge">TagBadge</a></td>
+                <td class="yellow-color">
+                  <a href="#TagBadge">TagBadge </a
+                  ><span class="material-symbol">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="13"
+                      height="12"
+                      viewBox="0 0 13 12"
+                      fill="none"
+                    >
+                      <path
+                        d="M2.48492 11.2786L6.4718 7.29174L10.4587 11.2786L11.8006 9.93673L7.81368 5.94985L11.8006 1.96298L10.4587 0.621094L6.4718 4.60797L2.48492 0.621094L1.14304 1.96298L5.12991 5.94985L1.14304 9.93673L2.48492 11.2786Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </span>
+                </td>
+                <td><a href="#TagBadge">TagBadge</a></td>
+              </tr>
+              <tr>
+                <td class="yellow-color">
+                  <a href="#TagBadge">TagBadge </a
+                  ><span class="material-symbol">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="13"
+                      height="12"
+                      viewBox="0 0 13 12"
+                      fill="none"
+                    >
+                      <path
+                        d="M2.48492 11.2786L6.4718 7.29174L10.4587 11.2786L11.8006 9.93673L7.81368 5.94985L11.8006 1.96298L10.4587 0.621094L6.4718 4.60797L2.48492 0.621094L1.14304 1.96298L5.12991 5.94985L1.14304 9.93673L2.48492 11.2786Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </span>
+                </td>
+                <td class="yellow-color">
+                  <a href="#TagBadge">TagBadge </a
+                  ><span class="material-symbol">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="13"
+                      height="12"
+                      viewBox="0 0 13 12"
+                      fill="none"
+                    >
+                      <path
+                        d="M2.48492 11.2786L6.4718 7.29174L10.4587 11.2786L11.8006 9.93673L7.81368 5.94985L11.8006 1.96298L10.4587 0.621094L6.4718 4.60797L2.48492 0.621094L1.14304 1.96298L5.12991 5.94985L1.14304 9.93673L2.48492 11.2786Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </span>
+                </td>
+                <td><a href="#TagBadge">TagBadge</a></td>
+
+                <td class="yellow-color">
+                  <a href="#TagBadge">TagBadge </a
+                  ><span class="material-symbol">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="13"
+                      height="12"
+                      viewBox="0 0 13 12"
+                      fill="none"
+                    >
+                      <path
+                        d="M2.48492 11.2786L6.4718 7.29174L10.4587 11.2786L11.8006 9.93673L7.81368 5.94985L11.8006 1.96298L10.4587 0.621094L6.4718 4.60797L2.48492 0.621094L1.14304 1.96298L5.12991 5.94985L1.14304 9.93673L2.48492 11.2786Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </span>
+                </td>
+                <td><a href="#TagBadge">TagBadge</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="quiz-button-container">
+          <div class="quize--">
+            <a href="#start-quiz" class="start-button">Start Quiz</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Choose your favorite topic pop up end  -->
+    <!-- Question page start  -->
+    <!-- nav start  -->
+    <div class="question-page">
+      <div class="nav">
+        <nav class="navBar">
+          <div class="logo">
+            <img
+              class="cap"
+              src="https://s3-alpha-sig.figma.com/img/bc54/7f13/d28a4b243089059a8c6dc2d17da91bef?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=NBqa6jVQ9yKMJb8kcDTWKFm~t0ZSlUAq2s4qSu5OMJ30IPNc2hc6mvmVLzUA1ydpUUablwuvgBj~d3pcUK7vJCZimqSlslxD5WPMj1qkMBxeqPu86dLF9dulBL2fv9Znl8Wm-tNSILsQDpTBlsBwvj2Q2ze-ZuOktnC-hWLgE4Ok4VyWGYTF6AQYM7xIRwdNqSyydVh5ZFJ0ZjTplR~BY32K5-0kSz74S1NX5Tq2PI18t1I9GW0PwD8Hksongg9OEXxa1i3S0y0h8SoYsJd018zoNrSHnHnfsuKg27LaLcVJz3xbo2aQBgFF92FhH9awBnF~hm7BD4ZiWCpD-zGl5Q__"
+              alt=""
+            />
+            <img src="./QuizGrad.png" alt="logo" />
+          </div>
+          <div class="nav-container">
+            <div class="nav--container">
+              <div class="navcontent">
+                <a href="#howitWorks" class="how">How it Works?</a>
+                <a href="Features">Features</a>
+                <a href="#aboutUs">About Us</a>
+              </div>
+              <div class="button">
+                <a href="#login" class="button-login" id="btn">Login</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <hr / class="nav-hr">
+      <!-- nav end  -->
+      <div class="question-page-tontainer">
+        <div class="questions"></div>
+        <div class="answer-select-content"></div>
+        <div class="button-part"></div>
+      </div>
+
+      <section id="questions" style="display:">
+        <div class="score" style="display: flex">Score: 0</div>
+
+        <div class="que que1">
+          <div class="question">
+            An interface design application that runs in the browser with
+            team-based collaborative design projects
+          </div>
+          <div class="options">
+            <div class="opt" onclick="check(1,1)">
+              <div class="card"><span class="abcd">A.</span>FIGMA</div>
+            </div>
+            <div class="opt" onclick="check(2,1)">
+              <div class="card"><span class="abcd">B.</span>ADOM XD</div>
+            </div>
+            <div class="opt" onclick="check(3,1)">
+              <div class="card"><span class="abcd">C.</span>INISION</div>
+            </div>
+            <div class="opt" onclick="check(4,1)">
+              <div class="card"><span class="abcd">D.</span>SKETCH</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="que que2" style="display: none">
+          <div class="question">Who wrote 'To Kill a Mockingbird'?</div>
+          <div class="options">
+            <div class="opt" onclick="check(1,2)">
+              <div class="card"><span class="abcd">A.</span>Harper Lee</div>
+            </div>
+            <div class="opt" onclick="check(2,2)">
+              <div class="card"><span class="abcd">B.</span>George Orwell</div>
+            </div>
+            <div class="opt" onclick="check(3,2)">
+              <div class="card"><span class="abcd">C.</span>Jane Austen</div>
+            </div>
+            <div class="opt" onclick="check(4,2)">
+              <div class="card">
+                <span class="abcd">D.</span>F. Scott Fitzgerald
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="que que3" style="display: none">
+          <div class="question">
+            When was the Central Rural Sanitation Programme launched ?
+          </div>
+          <div class="options">
+            <div class="opt" onclick="check(1,3)">
+              <div class="card"><span class="abcd">A.</span>1982</div>
+            </div>
+            <div class="opt" onclick="check(2,3)">
+              <div class="card"><span class="abcd">B.</span>1986</div>
+            </div>
+            <div class="opt" onclick="check(3,3)">
+              <div class="card"><span class="abcd">C.</span>1984</div>
+            </div>
+            <div class="opt" onclick="check(4,3)">
+              <div class="card"><span class="abcd">D.</span>1985</div>
+            </div>
+          </div>
+        </div>
+        <div class="que que4" style="display: none">
+          <div class="question">
+            Which organisation is operating the Pradhan Mantri Vaya Vandana
+            Yojana of the Government of India ?
+          </div>
+          <div class="options">
+            <div class="opt" onclick="check(1,3)">
+              <div class="card">
+                <span class="abcd">A.</span>Unit Trust of India
+              </div>
+            </div>
+            <div class="opt" onclick="check(2,3)">
+              <div class="card"><span class="abcd">B.</span>Post Office</div>
+            </div>
+            <div class="opt" onclick="check(3,3)">
+              <div class="card">
+                <span class="abcd">C.</span>State Bank of India
+              </div>
+            </div>
+            <div class="opt" onclick="check(4,3)">
+              <div class="card"><span class="abcd">D.</span>LIC of India</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="buttons">
+          <button class="prev btn" style="display: none">
+            <i class="fa-solid fa-caret-left"></i>Previous
+          </button>
+          <div
+            class="pairBtn"
+            style="
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+            "
+          >
+            <button class="next btn">
+              Next <i class="fa-solid fa-caret-right"></i>
+            </button>
+            <button class="skip btn">Skip</button>
+          </div>
+          <button class="submit btn" style="display: ">Submit</button>
+        </div>
+      </section>
+    </div>
+    <!-- Question page end  -->
+    <section class="afterTest" style="display: ">
+      <div class="close closeAfterTest">&times;</div>
+      <div>
+        <h1>Congratulations!!!</h1>
+        <p id="afterTest">YOU SCORED :</p>
+      </div>
+    </section>
+    <!-- script  -->
+    <script src="./script.js"></script>
+  </body>
+</html>
